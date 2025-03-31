@@ -1,0 +1,5 @@
+statements	experiment_1	experiment_2	experiment_3	experiment_4	experiment_5	total_time
+25	0,006	0,003	0,003	0,003	0,003	0,0036
+50	0,01	0,01	0,004	0,007	0,004	0,007
+100	0,009	0,008	0,008	0,008	0,011	0,0088
+150	0,014	0,045	0,052	0,014	0,009	0,0268

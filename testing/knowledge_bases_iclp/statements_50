@@ -1,0 +1,30 @@
+{
+  "Solver": "clingo version 5.7.1",
+  "Input": [
+    "knowledge-base-problem-instance.lp","knowledge-base-problem-class.lp","functions.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "defeasible(a(2),a(0))", "defeasible(a(3),a(0))", "defeasible(a(4),a(0))", "defeasible(a(5),a(0))", "defeasible(a(6),a(0))", "defeasible(a(7),a(0))", "defeasible(a(8),a(0))", "defeasible(a(9),a(0))", "defeasible(a(10),a(0))", "defeasible(a(11),a(0))", "defeasible(a(12),a(0))", "defeasible(a(13),a(0))", "defeasible(a(14),a(0))", "defeasible(a(15),a(0))", "defeasible(a(16),a(0))", "defeasible(a(17),a(0))", "defeasible(a(18),a(0))", "defeasible(a(19),a(0))", "defeasible(a(20),a(0))", "defeasible(a(21),a(0))", "defeasible(a(22),a(0))", "defeasible(a(23),a(0))", "defeasible(a(24),a(0))", "defeasible(a(25),a(0))", "defeasible(a(26),a(0))", "defeasible(a(27),a(0))", "defeasible(a(28),a(0))", "defeasible(a(29),a(0))", "defeasible(a(30),a(0))", "defeasible(a(31),a(0))", "defeasible(a(32),a(0))", "defeasible(a(33),a(0))", "defeasible(a(34),a(0))", "defeasible(a(35),a(0))", "defeasible(a(36),a(0))", "defeasible(a(37),a(0))", "defeasible(a(38),a(0))", "defeasible(a(39),a(0))", "defeasible(a(40),a(0))", "defeasible(a(41),a(0))", "defeasible(a(42),a(0))", "defeasible(a(43),a(0))", "defeasible(a(44),a(0))", "defeasible(a(45),a(0))", "defeasible(a(46),a(0))", "defeasible(a(47),a(0))", "defeasible(a(48),a(0))", "defeasible(a(49),a(0))", "defeasible(a(0),a(1))", "defeasible(a(2),a(1))"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 1,
+    "More": "yes"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.031,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.024
+  }
+}
