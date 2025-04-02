@@ -12,4 +12,5 @@ dependencies = [
     "pysat>=3.2.2",
     "python-sat>=1.8.dev16",
     "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
 ]
