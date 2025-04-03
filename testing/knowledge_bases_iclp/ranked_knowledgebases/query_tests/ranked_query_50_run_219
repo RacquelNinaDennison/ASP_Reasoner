@@ -21,7 +21,7 @@
   },
   "Calls": 1,
   "Time": {
-    "Total": 0.006,
+    "Total": 0.005,
     "Solve": 0.000,
     "Model": 0.000,
     "Unsat": 0.000,

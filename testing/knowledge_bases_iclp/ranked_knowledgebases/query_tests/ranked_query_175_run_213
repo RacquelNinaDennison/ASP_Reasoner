@@ -1,0 +1,30 @@
+{
+  "Solver": "clingo version 5.7.1",
+  "Input": [
+    "ranked_175.lp","rational_closure_encoding.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "entailed(true)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 1,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.045,
+    "Solve": 0.005,
+    "Model": 0.005,
+    "Unsat": 0.000,
+    "CPU": 0.015
+  }
+}

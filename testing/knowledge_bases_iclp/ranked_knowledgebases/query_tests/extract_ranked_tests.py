@@ -1,7 +1,7 @@
 import json 
 
 prefix = 'ranked_query'
-knowledge_base_count = [25,50,100,150]
+knowledge_base_count = [25,50,75,125,100,150,175,200]
 
 
 for knowledge_base in knowledge_base_count:
@@ -10,7 +10,7 @@ for knowledge_base in knowledge_base_count:
         with open(filename) as file:
             jsonConverted = json.load(file)
         timeTaken = jsonConverted["Time"]["Total"]
-        with open(f"results/{prefix}_{knowledge_base}","+a") as written_results:
+        with open(f"results/{prefix}_{knowledge_base}.txt","+a") as written_results:
             written_results.writelines(f"{timeTaken}\n")
 
     
