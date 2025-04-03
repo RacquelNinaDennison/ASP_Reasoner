@@ -98,4 +98,4 @@ rank(m_implication(a(98),a(0)),0).
 rank(m_implication(a(99),a(0)),0).
 rank(m_implication(a(0),a(1)),0).
 rank(m_implication(a(2),a(1)),0).
-query(a(48),a(0)). 
+query(a(2),a(1)). 

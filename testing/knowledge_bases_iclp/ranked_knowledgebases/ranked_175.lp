@@ -123,4 +123,4 @@ rank(m_implication(a(123),a(0)),0).
 rank(m_implication(a(124),a(0)),0).
 rank(m_implication(a(0),a(1)),0).
 rank(m_implication(a(2),a(1)),0).
-query(a(2),a(1)). 
+query(a(2),a(1)).
