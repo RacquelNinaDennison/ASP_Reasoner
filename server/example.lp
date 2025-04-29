@@ -1,1 +1,0 @@
-rank(m_implication(a,b),0). 
